@@ -1,0 +1,33 @@
+body {
+	overflow: auto;
+	background-image: url("small_steps.png")
+}
+
+.wrapper {
+	position: relative;
+	margin: 0 auto;
+	width: 472px;
+	height: 690px;
+	background-image: url("https://upload.wikimedia.org/wikipedia/en/archive/2/22/20141024074936!IPad_Mini_3_Gold.png");
+	background-size: cover;
+	background-position: center center;
+}
+
+
+
+
+canvas {
+	margin: 0;
+	position: relative;
+    top: 66px;
+    left: 26px;
+    /*margin-right: -50%;*/
+    /*transform: translate(-50%, -50%);*/
+/*   	top: 188px;
+    left: 691px;*/
+}
+
+@font-face {
+	font-family: "arcade";
+	src: url('ARCADECLASSIC.TTF');
+}
