@@ -143,7 +143,7 @@ $(document).ready(function(){
 		function showGameOver() {
 			active = false;
 			ctx.clearRect( 0, 0, w, h);
-			ctx.fillStyle = "black";
+			ctx.fillStyle = "white";
 			ctx.font = "48px arcade";
 			ctx.fillText( "Game Over!", ( (w/2) - (ctx.measureText("Game Over!").width / 2)), 50 );
 
